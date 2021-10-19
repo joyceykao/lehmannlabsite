@@ -8,6 +8,17 @@
 body{
   background-image: url("../media/LLbackgroundcropped.png");
   background-size: cover;
+  font-family: Open Sans;
+}
+h1 {
+  font-family: Montserrat Subrayada;
+  font-weight: bold;
+  color: #343A40;
+}
+
+h2, h3, h4, h5 {
+  color: #004E89;
+  font-weight: bold;
 }
 
 nav{
@@ -16,7 +27,9 @@ nav{
   color: white;
 }
 
-
+.card {
+  background-color: #E5E5E5;
+}
 .nav-item, a:link {
   color:white !important;
 }
