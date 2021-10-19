@@ -1,0 +1,34 @@
+/*Font Awesome Icons*/
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* Utilities */
+body{
+  background-image: url("../media/LLbackgroundcropped.png");
+  background-size: cover;
+}
+
+nav{
+  font-family: Montserrat Subrayada;
+  background: #343A40 !important;
+  color: white;
+}
+
+
+.nav-item, a:link {
+  color:white !important;
+}
+
+.nav-item, a:visited {
+  color:white !important;
+}
+
+.nav-item, a:hover {
+  color:#EE6C4D !important;
+}
+
+::selection {
+  background: #EE6C4D;
+}
