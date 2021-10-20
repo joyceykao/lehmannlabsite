@@ -5,6 +5,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 /* Utilities */
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.content {
+  min-height: 100%;
+}
+.content-inside {
+  padding: 20px;
+  padding-bottom: 50px;
+}
+.footer {
+  height: 50px;
+  margin-top: -50px;
+  background-color: #C4C4C4 ;
+}
+
 body{
   background-image: url("../media/LLbackgroundcropped.png");
   background-size: cover;
@@ -64,46 +82,4 @@ a:hover > h6 {
 
 ::selection {
   background: #EE6C4D;
-}
-
-
-.footer {
-  border-top: 2px solid white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 100px;
-  padding: 0px 50px;
-  color: rgb(255, 255, 255);
-}
-
-@media only screen and (max-width: 600px) {
-  .footer{
-    height: 350px;
-  }
-}
-
-.footer-links {
-  display: flex;
-  align-items: center;
-}
-
-.footer-links i {
-  color: white;
-  font-size: 24px;
-}
-
-.footer-links a {
-  color: white;
-  text-decoration: none;
-
-  padding: 0px 10px;
-}
-.footer-links a:hover {
-  color: #2F80A9;
-  text-decoration: none;
-  background-color: black;
-}
-.footer .fa-heart {
-  color: #D23333;
 }
