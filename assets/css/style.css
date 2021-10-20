@@ -13,10 +13,10 @@ body{
 h1 {
   font-family: Montserrat Subrayada;
   font-weight: bold;
-  color: #343A40;
+  color: #004E89;
 }
 
-h2, h3, h4, h5 {
+h2, h3, h4, h5, h6 {
   color: #004E89;
   font-weight: bold;
 }
@@ -26,19 +26,23 @@ nav{
   background: #343A40 !important;
   color: white;
 }
+a:hover > h6 {
+  color:#EE6C4D !important;
+}
 
 .card {
   background-color: #E5E5E5;
 }
-.nav-item, a:link {
+.nav-item > a:link {
+  color:white !important;
+  text-decoration: none;
+}
+
+.nav-item > a:visited {
   color:white !important;
 }
 
-.nav-item, a:visited {
-  color:white !important;
-}
-
-.nav-item, a:hover {
+.nav-item > a:hover {
   color:#EE6C4D !important;
 }
 
