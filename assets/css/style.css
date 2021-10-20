@@ -26,6 +26,10 @@ nav{
   background: #343A40 !important;
   color: white;
 }
+a:link{
+  text-decoration: none;
+}
+
 a:hover > h6 {
   color:#EE6C4D !important;
 }
@@ -33,6 +37,18 @@ a:hover > h6 {
 .card {
   background-color: #E5E5E5;
 }
+
+.card > a:hover{
+  box-shadow: 5px 5px 2px 1px rgba(50, 50, 50, .2);
+}
+
+.card > a:hover > h1 {
+  color:#EE6C4D;
+}
+.card > a:hover > h5 {
+  color:#EE6C4D;
+}
+
 .nav-item > a:link {
   color:white !important;
   text-decoration: none;
