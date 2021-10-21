@@ -87,8 +87,180 @@
 
         <div class="container">
           <div class="card mt-3 mb-3">
+
             <div class="card-body">
               <h5 class="card-title">Selected Publications</h5>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+
+                <div class="accordion-item">
+                  <div class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      <div class="publication">
+                         <div class="publication-authors">Anja Irmisch, Ximena Bonilla, Stéphane Chevrier, <strong>Kjong-Van Lehmann</strong>, Franziska Singer, Nora C. Toussaint, Cinzia
+                            Esposito, Julien Mena, Emanuela S. Milani, Ruben Casanova, Daniel J. Stekhoven, Rebekka Wegmann, Francis Jacob, Bettina
+                            Sobottka, Sandra Goetze, Jack Kuipers, Jacobo Sarabia del Castillo, ..., Rudolf Aebersold, Marina Bacac,
+                            Niko Beerenwinkel, Christian Beisel, Bernd Bodenmiller, Reinhard Dummer, Viola Heinzelmann-Schwarz, Viktor H. Koelzer,
+                            Markus G. Manz, Holger Moch, Lucas Pelkmans, Berend Snijder, Alexandre P.A. Theocharides, Markus Tolnay, Andreas Wicki,
+                            Bernd Wollscheid, Gunnar Rätsch, Mitchell P. Levesque</div>
+                        <div class="publication-title">The Tumor Profiler Study: integrated, multi-omic, functional tumor profiling for clinical decision support</div>
+                        <div class="publication-place">Cancer Cell</div>
+                      </div>
+                    </button>
+                  </div>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><strong>Abstract:</strong> <p>The application and integration of molecular profiling technologies create novel opportunities for personalized
+                      medicine. Here, we introduce the Tumor Profiler Study, an observational trial combining a prospective diagnostic
+                      approach to assess the relevance of in-depth tumor profiling to support clinical decision-making with an exploratory
+                      approach to improve the biological understanding of the disease.</p> <a class="btn" target="_blank" href="https://www.cell.com/cancer-cell/fulltext/S1535-6108(21)00048-9">Link</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <div class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      <div class="publication">
+                        <div class="publication-authors">Stefan G Stark, Joanna Ficek, Francesco Locatello, Ximena Bonilla, Stéphane Chevrier, Franziska Singer, Tumor Profiler
+                        Consortium, Gunnar Rätsch, <strong>Kjong-Van Lehmann</strong></div>
+                        <div class="publication-title">SCIM: universal single-cell matching with unpaired feature sets</div>
+                        <div class="publication-place">Bioinformatics</div>
+                      </div>
+                    </button>
+                  </div>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><strong>Abstract:</strong>
+                      <p><strong>Motivation</strong>
+                      Recent technological advances have led to an increase in the production and availability of single-cell data. The
+                      ability to integrate a set of multi-technology measurements would allow the identification of biologically or clinically
+                      meaningful observations through the unification of the perspectives afforded by each technology. In most cases, however,
+                      profiling technologies consume the used cells and thus pairwise correspondences between datasets are lost. Due to the
+                      sheer size single-cell datasets can acquire, scalable algorithms that are able to universally match single-cell
+                      measurements carried out in one cell to its corresponding sibling in another technology are needed. <br>
+                      <strong>Results</strong>
+                      We propose Single-Cell data Integration via Matching (SCIM), a scalable approach to recover such correspondences in two
+                      or more technologies. SCIM assumes that cells share a common (low-dimensional) underlying structure and that the
+                      underlying cell distribution is approximately constant across technologies. It constructs a technology-invariant latent
+                      space using an autoencoder framework with an adversarial objective. Multi-modal datasets are integrated by pairing cells
+                      across technologies using a bipartite matching scheme that operates on the low-dimensional latent representations. We
+                      evaluate SCIM on a simulated cellular branching process and show that the cell-to-cell matches derived by SCIM reflect
+                      the same pseudotime on the simulated dataset. Moreover, we apply our method to two real-world scenarios, a melanoma
+                      tumor sample and a human bone marrow sample, where we pair cells from a scRNA dataset to their sibling cells in a CyTOF
+                      dataset achieving 90% and 78% cell-matching accuracy for each one of the samples, respectively.</p> <a class="btn" target="_blank"
+                        href="https://academic.oup.com/bioinformatics/article/36/Supplement_2/i919/6055906">Link</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <div class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      <div class="publication">
+                        <div class="publication-authors">Xinrui Lyu, Jean Garret, Gunnar Rätsch, <strong>Kjong-Van Lehmann</strong></div>
+                        <div class="publication-title">Mutational signature learning with supervised negative binomial non-negative matrix factorization</div>
+                        <div class="publication-place">Bioinformatics</div>
+                      </div>
+                    </button>
+                  </div>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><strong>Abstract:</strong>
+                      <p><strong>Motivation</strong>
+                        Understanding the underlying mutational processes of cancer patients has been a long-standing goal in the community and
+                        promises to provide new insights that could improve cancer diagnoses and treatments. Mutational signatures are summaries
+                        of the mutational processes, and improving the derivation of mutational signatures can yield new discoveries previously
+                        obscured by technical and biological confounders. Results from existing mutational signature extraction methods depend
+                        on the size of available patient cohort and solely focus on the analysis of mutation count data without considering the
+                        exploitation of metadata. <br>
+                        <strong>Results</strong>
+                        Here we present a supervised method that utilizes cancer type as metadata to extract more distinctive signatures. More
+                        specifically, we use a negative binomial non-negative matrix factorization and add a support vector machine loss. We
+                        show that mutational signatures extracted by our proposed method have a lower reconstruction error and are designed to
+                        be more predictive of cancer type than those generated by unsupervised methods. This design reduces the need for
+                        elaborate post-processing strategies in order to recover most of the known signatures unlike the existing unsupervised
+                        signature extraction methods. Signatures extracted by a supervised model used in conjunction with cancer-type labels are
+                        also more robust, especially when using small and potentially cancer-type limited patient cohorts. Finally, we adapted
+                        our model such that molecular features can be utilized to derive an according mutational signature. We used APOBEC
+                        expression and MUTYH mutation status to demonstrate the possibilities that arise from this ability. We conclude that our
+                        method, which exploits available metadata, improves the quality of mutational signatures as well as helps derive more
+                        interpretable representations.
+                      </p> <a class="btn" target="_blank"
+                        href="https://academic.oup.com/bioinformatics/article/36/Supplement_1/i154/5870496">Link</a>
+                    </div>
+                  </div>
+                </div>
+
+                                <div class="accordion-item">
+                  <div class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      <div class="publication">
+                        <div class="publication-authors">Xinrui Lyu, Jean Garret, Gunnar Rätsch, <strong>Kjong-Van Lehmann</strong></div>
+                        <div class="publication-title">Mutational signature learning with supervised negative binomial non-negative matrix factorization</div>
+                        <div class="publication-place">Bioinformatics</div>
+                      </div>
+                    </button>
+                  </div>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><strong>Abstract:</strong>
+                      <p><strong>Motivation</strong>
+                        Understanding the underlying mutational processes of cancer patients has been a long-standing goal in the community and
+                        promises to provide new insights that could improve cancer diagnoses and treatments. Mutational signatures are summaries
+                        of the mutational processes, and improving the derivation of mutational signatures can yield new discoveries previously
+                        obscured by technical and biological confounders. Results from existing mutational signature extraction methods depend
+                        on the size of available patient cohort and solely focus on the analysis of mutation count data without considering the
+                        exploitation of metadata. <br>
+                        <strong>Results</strong>
+                        Here we present a supervised method that utilizes cancer type as metadata to extract more distinctive signatures. More
+                        specifically, we use a negative binomial non-negative matrix factorization and add a support vector machine loss. We
+                        show that mutational signatures extracted by our proposed method have a lower reconstruction error and are designed to
+                        be more predictive of cancer type than those generated by unsupervised methods. This design reduces the need for
+                        elaborate post-processing strategies in order to recover most of the known signatures unlike the existing unsupervised
+                        signature extraction methods. Signatures extracted by a supervised model used in conjunction with cancer-type labels are
+                        also more robust, especially when using small and potentially cancer-type limited patient cohorts. Finally, we adapted
+                        our model such that molecular features can be utilized to derive an according mutational signature. We used APOBEC
+                        expression and MUTYH mutation status to demonstrate the possibilities that arise from this ability. We conclude that our
+                        method, which exploits available metadata, improves the quality of mutational signatures as well as helps derive more
+                        interpretable representations.
+                      </p>
+                      <a class="btn" target="_blank" href="https://academic.oup.com/bioinformatics/article/36/Supplement_1/i154/5870496">Link</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <div class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                      <div class="publication">
+                        <div class="publication-authors">XPCAWG Transcriptome Core Group, Claudia Calabrese, Natalie R. Davidson, Deniz Demircioğlu, Nuno A. Fonseca, Yao He,
+                        André Kahles, <strong>Kjong-Van Lehmann</strong>, Fenglin Liu, Yuichi Shiraishi, Cameron M. Soulette, Lara Urban, Liliana Greger, Siliang
+                        Li, Dongbing Liu, Marc D. Perry, Qian Xiang, Fan Zhang, Junjun Zhang, Peter Bailey, Serap Erkek, Katherine A. Hoadley,
+                        Yong Hou, Matthew R. Huska, Helena Kilpinen, Jan O. Korbel, Maximillian G. Marin, Julia Markowski, Tannistha Nandi,
+                        Qiang Pan-Hammarström, Chandra Sekhar Pedamallu, Reiner Siebert, Stefan G. Stark, Hong Su, Patrick Tan, Sebastian M.
+                        Waszak, Christina Yung, Shida Zhu, Philip Awadalla, Chad J. Creighton, Matthew Meyerson, B. F. Francis Ouellette, Kui
+                        Wu, Huanming Yang, PCAWG Transcriptome Working Group, Alvis Brazma, Angela N. Brooks, Jonathan Göke, Gunnar Rätsch,
+                        Roland F. Schwarz, Oliver Stegle, Zemin Zhang & PCAWG Consortium</div>
+                        <div class="publication-title">Genomic basis for RNA alterations in cancer</div>
+                        <div class="publication-place">Nature</div>
+                      </div>
+                    </button>
+                  </div>
+                  <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><strong>Abstract:</strong>
+                      <p>Transcript alterations often result from somatic changes in cancer genomes1. Various forms of RNA alterations have been described in cancer, including overexpression2, altered splicing3 and gene fusions4; however, it is difficult to attribute these to underlying genomic changes owing to heterogeneity among patients and tumour types, and the relatively small cohorts of patients for whom samples have been analysed by both transcriptome and whole-genome sequencing. Here we present, to our knowledge, the most comprehensive catalogue of cancer-associated gene alterations to date, obtained by characterizing tumour transcriptomes from 1,188 donors of the Pan-Cancer Analysis of Whole Genomes (PCAWG) Consortium of the International Cancer Genome Consortium (ICGC) and The Cancer Genome Atlas (TCGA)5. Using matched whole-genome sequencing data, we associated several categories of RNA alterations with germline and somatic DNA alterations, and identified probable genetic mechanisms. Somatic copy-number alterations were the major drivers of variations in total gene and allele-specific expression. We identified 649 associations of somatic single-nucleotide variants with gene expression in cis, of which 68.4% involved associations with flanking non-coding regions of the gene. We found 1,900 splicing alterations associated with somatic mutations, including the formation of exons within introns in proximity to Alu elements. In addition, 82% of gene fusions were associated with structural variants, including 75 of a new class, termed ‘bridged’ fusions, in which a third genomic location bridges two genes. We observed transcriptomic alteration signatures that differ between cancer types and have associations with variations in DNA mutational signatures. This compendium of RNA alterations in the genomic context provides a rich resource for identifying genes and mechanisms that are functionally implicated in cancer.</p>
+                      <a class="btn" target="_blank"href="https://www.nature.com/articles/s41586-020-1970-0">Link</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
             </div>
           </div>
         </div>
