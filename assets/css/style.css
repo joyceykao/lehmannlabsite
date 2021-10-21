@@ -54,10 +54,14 @@ a:hover > h6 {
 
 .card {
   background-color: #E5E5E5;
+  padding: 1.5em .5em .5em;
+  border-radius: 2em;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
 }
 
-.card > a:hover{
-  box-shadow: 5px 5px 2px 1px rgba(50, 50, 50, .2);
+#navcard:hover {
+  box-shadow: 0 5px 10px rgba(0,0,0,.5);
 }
 
 .card > a:hover > h1 {
