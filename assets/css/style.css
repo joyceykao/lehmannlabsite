@@ -39,6 +39,10 @@ h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
+p {
+  color: #004E89;
+}
+
 nav{
   font-family: Montserrat Subrayada;
   background: #343A40 !important;
@@ -48,8 +52,20 @@ a:link{
   text-decoration: none;
 }
 
+
+
 a:hover > h6 {
   color:#EE6C4D !important;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 0% 0%;
+  margin-bottom: 1em;
 }
 
 .btn {
@@ -97,14 +113,17 @@ a:hover > h6 {
   font-style: italic;
 }
 
-#navcard:hover {
-  box-shadow: 0 5px 10px rgba(0,0,0,.5);
+.card > a:link > p {
+  color:#004E89 !important;
 }
 
 .card > a:hover > h1 {
   color:#EE6C4D;
 }
 .card > a:hover > h5 {
+  color:#EE6C4D;
+}
+.card > a:hover > p {
   color:#EE6C4D;
 }
 
@@ -119,6 +138,14 @@ a:hover > h6 {
 
 .nav-item > a:hover {
   color:#EE6C4D !important;
+}
+
+.navcard:hover {
+  box-shadow: 0 5px 10px rgba(0,0,0,.5);
+}
+
+#person {
+  max-width: 350px;
 }
 
 ::selection {
