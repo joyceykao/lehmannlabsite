@@ -80,7 +80,7 @@ a:hover > h6 {
 }
 .btn:hover {
   background-color: #EE6C4D;
-  color: white;
+  color: white !important;
 }
 
 .card {
