@@ -175,3 +175,7 @@ a:hover > h6 {
 #map {
   height:300px;
 }
+
+#code-accordion {
+  background-color: rgba(0,0,0,.1);
+}
