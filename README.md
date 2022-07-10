@@ -1,4 +1,4 @@
-# lehmannlabsite
+# lehmannlab.org Staging Area
 
 This repository is the staging site to make and test changes to the lehmannlab.org website.
 
