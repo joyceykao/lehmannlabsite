@@ -72,6 +72,12 @@ a:hover > h6 {
   margin-bottom: 1em;
 }
 
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  color: #004E89;
+}
+
 .btn {
   color: white;
   background-color: #004E89;
